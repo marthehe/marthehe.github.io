@@ -14,7 +14,10 @@ h6 {
   font-family: 'Montserrat';
   font-weight: 700;
   padding-bottom: 1rem;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1030; }
   .nav__navbar-brand, .nav__item-link {
     color: #fff; }
     .nav__navbar-brand:hover, .nav__item-link:hover {
@@ -23,12 +26,12 @@ h6 {
       color: #fff; }
     .nav__navbar-brand.active, .nav__item-link.active {
       color: #b84e63; }
-  .nav__toggler--uppercase {
+  .nav__toggler {
     background-color: #b84e63;
     border-color: #b84e63;
     font-size: 80%;
     padding: 0.8rem; }
-    .nav__toggler--uppercase:hover, .nav__toggler--uppercase:focus, .nav__toggler--uppercase:active {
+    .nav__toggler:hover, .nav__toggler:focus, .nav__toggler:active {
       background-color: #973c4e;
       border-color: #973c4e; }
   .nav__list {
@@ -37,8 +40,8 @@ h6 {
 
 .header__hero {
   padding-bottom: 6rem;
-  padding-top: calc(6rem + 72px); }
-.header__heading--uppercase {
+  padding-top: 6rem; }
+.header__heading {
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 3rem;
